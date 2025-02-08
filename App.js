@@ -23,22 +23,17 @@
 //     )
 //   }
 // }
-import React from 'react'
 
-import FunctionalComponents from './components/FunctionalComponents';
-export const App = () => {
+import MyForm from './components/MyForm';
+
+
+
+function App() {
   return (
-    
-      //<FBCStateEx/>
-      <div className='App'>
-        <h1 class='heading'>so fast </h1>
-        
-        <FunctionalComponents cname="Mru" apply={true}>
-          <h1>solo leveling</h1>
-        </FunctionalComponents>
-      </div>
-      
-    
-  )
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
 }
+
 export default App;
