@@ -24,14 +24,15 @@
 //   }
 // }
 
-import MyForm from './components/MyForm';
+import UseEffectEx from './components/UseEffectEx';
 
 
 
 function App() {
   return (
     <div className="App">
-     <MyForm></MyForm>
+   
+     <UseEffectEx></UseEffectEx>
      </div>
   );
 }
